@@ -59,7 +59,7 @@ namespace Tests
             var triangle = ShapeFactory.CreateTriangle(A, B, C);
 
             if (triangle is not Triangle)
-                throw new Exception("Это не экземпляр объекта Triangle");
+                throw new Exception("It's not Triangle");
 
             var result = ((Triangle)triangle).IsRightTriangle();
 
@@ -76,7 +76,7 @@ namespace Tests
 
 
             if (triangle is not Triangle)
-                throw new Exception("Это не экземпляр объекта Triangle");
+                throw new Exception("It's not Triangle");
             
             var result = ((Triangle)triangle).IsRightTriangle();
 

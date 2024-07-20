@@ -42,14 +42,14 @@ namespace GeometryLib.Entities
             var sides = new[] { a, b, c };
             
             if (sides.Any(side => side is double.NaN || side < Constants.Eps)){
-                throw new ArgumentException("Стороны должны быть > 0");
+                throw new ArgumentException("Side must be > 0");
             }
 
             Array.Sort(sides);
 
             if (sides[0] + sides[1] - sides[2] < Constants.Eps)
             {
-                throw new ArgumentException("Треугольник не существует");
+                throw new ArgumentException("Wrong sides");
             }
         }
     }
