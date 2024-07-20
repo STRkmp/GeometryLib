@@ -11,15 +11,15 @@ try
 
     foreach (var shape in shapes)
     {
-        Console.WriteLine($"Площадь фигуры: {shape.GetArea():F2}");
+        Console.WriteLine($"Area: {shape.GetArea():F2}");
         
         if (shape is Triangle)
-            Console.WriteLine($"Текущая фигура трегуольник. Прямоугольный ли он? Ответ: {((Triangle)shape).IsRightTriangle()}");
+            Console.WriteLine($"Is this a right triangle? {((Triangle)shape).IsRightTriangle()}");
         
         Console.WriteLine();
     }
 }
 catch (Exception ex)
 {
-    Console.WriteLine($"Ошибка: {ex.Message}");
+    Console.WriteLine($"Error: {ex.Message}");
 }

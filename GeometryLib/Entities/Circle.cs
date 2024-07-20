@@ -24,7 +24,7 @@ namespace GeometryLib.Entities
         {
             if (radius is double.NaN || radius < Constants.Eps)
             {
-                throw new ArgumentException("Радиус < 0");
+                throw new ArgumentException("Radius must be > 0");
             }
         }
     }
