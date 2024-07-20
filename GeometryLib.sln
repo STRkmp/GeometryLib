@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryLib", "GeometryLib\GeometryLib.csproj", "{7D7B1114-8C63-495B-A76A-47BE178E237C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit_Tests", "Unit_Tests\Unit_Tests.csproj", "{0F69B80D-9449-44FB-9C7B-AF4B6923732A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{5D498638-DC7B-4A99-A60E-CBF2646322E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7B1114-8C63-495B-A76A-47BE178E237C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7B1114-8C63-495B-A76A-47BE178E237C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7B1114-8C63-495B-A76A-47BE178E237C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7B1114-8C63-495B-A76A-47BE178E237C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F69B80D-9449-44FB-9C7B-AF4B6923732A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F69B80D-9449-44FB-9C7B-AF4B6923732A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F69B80D-9449-44FB-9C7B-AF4B6923732A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F69B80D-9449-44FB-9C7B-AF4B6923732A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D498638-DC7B-4A99-A60E-CBF2646322E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D498638-DC7B-4A99-A60E-CBF2646322E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D498638-DC7B-4A99-A60E-CBF2646322E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D498638-DC7B-4A99-A60E-CBF2646322E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E6CAFA3-548C-49EF-A41B-9A50FFF27A09}
+	EndGlobalSection
+EndGlobal
