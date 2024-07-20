@@ -1,5 +1,10 @@
 # GeometryLib
-   Предположим есть три таблицы: Products (id, name), Categories (id, name), ProductCategories(id, (FK)productId, (FK)categoryId)
+   Предположим есть три таблицы: 
+   1) Products (id, name)
+   2) Categories (id, name)
+   3) ProductCategories(id, (FK) productId, (FK) categoryId)
+      
+```
 SELECT
     p.name,
     c.name
@@ -9,3 +14,4 @@ LEFT JOIN
     ProductCategories pc ON p.id = pc.productId
 LEFT JOIN
     Categories c ON pc.categoryId = c.id
+```
